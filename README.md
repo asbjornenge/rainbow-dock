@@ -4,13 +4,13 @@ DNS based service discovery for [docker](http://www.docker.com) inspired by [sky
 
 Rainbow-dock uses [rainbow-dns](https://github.com/asbjornenge/rainbow-dns) combined with a simple [populator](https://github.com/asbjornenge/rainbow-dock-populator) and :tada: you have a DNS server that can resolve container ip's based on names.
 
-### Run rainbow-dock
+### RUN rainbow-dock
 
 	docker run -p 8080:8080 -p 53:53 -p 53:53/udp -d asbjornenge/rainbow-dock --domain internal.domain --apihost 0.0.0.0 --dnshost 0.0.0.0 --fwdhost 8.8.8.8
 
 For more options check out the [rainbow-dns](https://github.com/asbjornenge/rainbow-dns) documentation.
 
-### Run rainbow-dock-populator
+### RUN rainbow-dock-populator
 
 The next step is to run [rainbow-dock-populator](https://github.com/asbjornenge/rainbow-dock-populator). It will query your docker host
 and populate rainbow-dock with the results.
