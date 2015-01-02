@@ -2,7 +2,7 @@
 
 DNS based service discovery for [docker](http://www.docker.com) inspired by [skydock](https://github.com/crosbymichael/skydock).
 
-Rainbow-dock uses [rainbow-dns](https://github.com/asbjornenge/rainbow-dns) combined with a simple [populator](https://github.com/asbjornenge/rainbow-dock-populator) and :tada: you have a DNS server that can resolve container ip's based on names.
+Rainbow-dock uses [rainbow-dns](https://github.com/asbjornenge/rainbow-dns) combined with a simple [populator](https://github.com/asbjornenge/rainbow-dock-populator) to produce a dns based service discovery tool for your docker installation :tada:
 
 ### RUN rainbow-dock
 
@@ -21,8 +21,8 @@ You can now <code>dig @[rainbow-dock-container-or-host-ip] "*.internal.domain"</
 
 ### Service discovery
 
-To have all your containers use rainbow-dock as their default dns service can be done in two ways. It can either be set on each container individually,
-or it can be set on the docker daemon. You can read up on that [here](https://docs.docker.com/articles/networking/#configuring-dns).
+If your containers use rainbow-dock as their default dns service, they can discover each other using dns names, like the internet!
+You can configure that in a few different ways, read up on that [here](https://docs.docker.com/articles/networking/#configuring-dns).
 
 And that is all. You now have dns based service discovery tool for your docker installation.
 
