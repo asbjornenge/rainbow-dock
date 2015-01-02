@@ -2,7 +2,7 @@
 
 DNS based service discovery for [docker](http://www.docker.com) inspired by [skydock](https://github.com/crosbymichael/skydock).
 
-Rainbow-dock uses [rainbow-dns](https://github.com/asbjornenge/rainbow-dns) combined with a simple [populator](https://github.com/asbjornenge/rainbow-dock-populator) to produce a dns based service discovery tool for your docker installation :rainbow::rocket::tada:
+Rainbow-dock uses [rainbow-dns](https://github.com/asbjornenge/rainbow-dns) combined with a simple [populator](https://github.com/asbjornenge/rainbow-dock-populator) to produce a dns based service discovery tool for your docker installation :rainbow::rocket:
 
 ### RUN rainbow-dock
 
